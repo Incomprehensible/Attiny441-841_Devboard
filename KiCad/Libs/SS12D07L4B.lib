@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SS12D07L4B
+#/15481534/661229/2.49/5/2/Switch
+DEF SS12D07L4B S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "SS12D07L4B" 750 200 50 H V L CNN
+F2 "SS12D07L4B" 750 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/lcsc/2110111230_XKB-Connectivity-SS12D07L4B_C480344.pdf" 750 0 50 H I L CNN
+F4 "Switch 0.3A 50V DC, 1P2T operating lifecycles 10,000 colour black" 750 -100 50 H I L CNN "Description"
+F5 "8.7" 750 -200 50 H I L CNN "Height"
+F6 "XKB Connectivity" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SS12D07L4B" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NC 1 0 -100 200 R 50 50 0 0 N
+X COM 2 0 -200 200 R 50 50 0 0 P
+X NO 3 0 -300 200 R 50 50 0 0 P
+X MH1 MH1 0 0 200 R 50 50 0 0 P
+X MH2 MH2 0 -400 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
