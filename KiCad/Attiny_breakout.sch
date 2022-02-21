@@ -202,200 +202,183 @@ $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 61FB4609
-P 10500 2350
-F 0 "#PWR04" H 10500 2100 50  0001 C CNN
-F 1 "GND" H 10505 2177 50  0000 C CNN
-F 2 "" H 10500 2350 50  0001 C CNN
-F 3 "" H 10500 2350 50  0001 C CNN
-	1    10500 2350
+P 9350 2550
+F 0 "#PWR04" H 9350 2300 50  0001 C CNN
+F 1 "GND" H 9355 2377 50  0000 C CNN
+F 2 "" H 9350 2550 50  0001 C CNN
+F 3 "" H 9350 2550 50  0001 C CNN
+	1    9350 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L esda5v3l:ESDA5V3L D4
 U 1 1 61FB8939
-P 10000 2050
-F 0 "D4" H 10205 2096 50  0000 L CNN
-F 1 "ESDA5V3L" H 10100 1850 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10225 2000 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10125 2175 50  0001 C CNN
-	1    10000 2050
+P 9900 2250
+F 0 "D4" H 10105 2296 50  0000 L CNN
+F 1 "ESDA5V3L" H 10000 2050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10125 2200 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10025 2375 50  0001 C CNN
+	1    9900 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10500 1900 10500 2350
-Connection ~ 10500 2350
 $Comp
 L esda5v3l:ESDA5V3L D3
 U 1 1 61FD42E1
-P 9400 2050
-F 0 "D3" H 9605 2096 50  0000 L CNN
-F 1 "ESDA5V3L" H 9500 1850 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9625 2000 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 9525 2175 50  0001 C CNN
-	1    9400 2050
+P 9350 2250
+F 0 "D3" H 9555 2296 50  0000 L CNN
+F 1 "ESDA5V3L" H 9450 2050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9575 2200 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 9475 2375 50  0001 C CNN
+	1    9350 2250
 	1    0    0    -1  
 $EndComp
 Text GLabel 8600 1600 0    50   BiDi ~ 0
 A2
 Wire Wire Line
-	8600 1800 8950 1800
+	8550 1800 8900 1800
 Wire Wire Line
-	8600 1500 9300 1500
+	8600 1500 9250 1500
 Wire Wire Line
-	8600 1600 9500 1600
+	8600 1600 9450 1600
 Wire Wire Line
-	8600 1400 10100 1400
+	8600 1400 10000 1400
 Wire Wire Line
-	8650 1300 9900 1300
+	8650 1300 9800 1300
 Wire Wire Line
-	8600 1700 8750 1700
+	8600 1700 8700 1700
 Wire Wire Line
-	8850 2350 9400 2350
+	8800 2550 9350 2550
 $Comp
 L esda5v3l:ESDA5V3L D2
 U 1 1 620175EA
-P 8850 2050
-F 0 "D2" H 9055 2096 50  0000 L CNN
-F 1 "ESDA5V3L" H 8950 1850 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9075 2000 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 8975 2175 50  0001 C CNN
-	1    8850 2050
+P 8800 2250
+F 0 "D2" H 9005 2296 50  0000 L CNN
+F 1 "ESDA5V3L" H 8900 2050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9025 2200 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 8925 2375 50  0001 C CNN
+	1    8800 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 2250 10000 2350
-Connection ~ 10000 2350
+	9900 2450 9900 2550
 Wire Wire Line
-	10000 2350 10500 2350
+	9900 2550 9350 2550
 Wire Wire Line
-	9400 2250 9400 2350
-Connection ~ 9400 2350
+	9350 2450 9350 2550
+Connection ~ 9350 2550
 Wire Wire Line
-	9400 2350 10000 2350
+	8800 2550 8800 2450
 Wire Wire Line
-	8850 2350 8850 2250
+	8700 1700 8700 2050
+Connection ~ 8700 1700
 Wire Wire Line
-	8750 1700 8750 1850
-Connection ~ 8750 1700
+	8700 1700 10500 1700
 Wire Wire Line
-	8750 1700 10500 1700
+	8900 2050 8900 1800
+Connection ~ 8900 1800
 Wire Wire Line
-	8950 1850 8950 1800
-Connection ~ 8950 1800
+	8900 1800 10500 1800
 Wire Wire Line
-	8950 1800 10500 1800
+	9250 2050 9250 1500
+Connection ~ 9250 1500
 Wire Wire Line
-	9300 1850 9300 1500
-Connection ~ 9300 1500
+	9250 1500 10500 1500
 Wire Wire Line
-	9300 1500 10500 1500
+	9450 2050 9450 1600
+Connection ~ 9450 1600
 Wire Wire Line
-	9500 1850 9500 1600
-Connection ~ 9500 1600
+	9450 1600 10500 1600
 Wire Wire Line
-	9500 1600 10500 1600
+	9800 2050 9800 1300
+Connection ~ 9800 1300
 Wire Wire Line
-	9900 1850 9900 1300
-Connection ~ 9900 1300
+	9800 1300 10500 1300
 Wire Wire Line
-	9900 1300 10500 1300
+	10000 2050 10000 1400
+Connection ~ 10000 1400
 Wire Wire Line
-	10100 1850 10100 1400
-Connection ~ 10100 1400
-Wire Wire Line
-	10100 1400 10500 1400
+	10000 1400 10500 1400
 $Comp
 L Connector:Conn_01x07_Female J4
 U 1 1 6202A79B
-P 10700 3300
-F 0 "J4" H 10728 3326 50  0000 L CNN
-F 1 "Conn_01x07_Female" H 10250 3800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 10700 3300 50  0001 C CNN
-F 3 "~" H 10700 3300 50  0001 C CNN
-	1    10700 3300
+P 10700 3600
+F 0 "J4" H 10728 3626 50  0000 L CNN
+F 1 "Conn_01x07_Female" H 10250 4100 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 10700 3600 50  0001 C CNN
+F 3 "~" H 10700 3600 50  0001 C CNN
+	1    10700 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L esda5v3l:ESDA5V3L D9
 U 1 1 6202A7AD
-P 10000 3900
-F 0 "D9" H 10205 3946 50  0000 L CNN
-F 1 "ESDA5V3L" H 10100 3700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10225 3850 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10125 4025 50  0001 C CNN
-	1    10000 3900
+P 10000 4200
+F 0 "D9" H 10205 4246 50  0000 L CNN
+F 1 "ESDA5V3L" H 10100 4000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10225 4150 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10125 4325 50  0001 C CNN
+	1    10000 4200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 3200 0    50   BiDi ~ 0
+Text GLabel 8500 3700 0    50   BiDi ~ 0
 A7
 $Comp
 L esda5v3l:ESDA5V3L D8
 U 1 1 6202A7B7
-P 9400 3900
-F 0 "D8" H 9605 3946 50  0000 L CNN
-F 1 "ESDA5V3L" H 9500 3700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9625 3850 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 9525 4025 50  0001 C CNN
-	1    9400 3900
+P 9400 4200
+F 0 "D8" H 9605 4246 50  0000 L CNN
+F 1 "ESDA5V3L" H 9500 4000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9625 4150 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 9525 4325 50  0001 C CNN
+	1    9400 4200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7850 3300 0    50   BiDi ~ 0
+Text GLabel 7900 1800 0    50   BiDi ~ 0
 B0_XTAL1
-Text GLabel 7850 3400 0    50   BiDi ~ 0
+Text GLabel 7900 1900 0    50   BiDi ~ 0
 B1_XTAL2
 Wire Wire Line
-	8600 3500 8950 3500
+	8600 3800 8950 3800
 Wire Wire Line
-	8600 3200 9300 3200
+	8500 3600 9500 3600
 Wire Wire Line
-	8500 3300 9500 3300
-Wire Wire Line
-	8600 3100 10100 3100
-Wire Wire Line
-	8600 3000 9900 3000
-Wire Wire Line
-	8500 3400 8750 3400
+	8500 3700 8750 3700
 $Comp
 L esda5v3l:ESDA5V3L D7
 U 1 1 6202A7C7
-P 8850 3900
-F 0 "D7" H 9055 3946 50  0000 L CNN
-F 1 "ESDA5V3L" H 8950 3700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9075 3850 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 8975 4025 50  0001 C CNN
-	1    8850 3900
+P 8850 4200
+F 0 "D7" H 9055 4246 50  0000 L CNN
+F 1 "ESDA5V3L" H 8950 4000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9075 4150 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 8975 4325 50  0001 C CNN
+	1    8850 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 3400 8750 3700
-Connection ~ 8750 3400
+	8750 3700 8750 4000
+Connection ~ 8750 3700
 Wire Wire Line
-	8750 3400 10500 3400
+	8750 3700 10500 3700
 Wire Wire Line
-	8950 3700 8950 3500
-Connection ~ 8950 3500
+	8950 4000 8950 3800
+Connection ~ 8950 3800
 Wire Wire Line
-	8950 3500 10500 3500
+	9300 4000 9300 3500
 Wire Wire Line
-	9300 3700 9300 3200
-Connection ~ 9300 3200
+	9300 3500 10500 3500
 Wire Wire Line
-	9300 3200 10500 3200
+	9500 4000 9500 3600
+Connection ~ 9500 3600
 Wire Wire Line
-	9500 3700 9500 3300
-Connection ~ 9500 3300
+	9500 3600 10500 3600
 Wire Wire Line
-	9500 3300 10500 3300
+	9900 4000 9900 3300
 Wire Wire Line
-	9900 3700 9900 3000
-Connection ~ 9900 3000
+	9900 3300 10500 3300
 Wire Wire Line
-	9900 3000 10500 3000
+	10100 4000 10100 3400
 Wire Wire Line
-	10100 3700 10100 3100
-Connection ~ 10100 3100
-Wire Wire Line
-	10100 3100 10500 3100
+	10100 3400 10500 3400
 $Comp
 L Device:Crystal Y1
 U 1 1 6203453C
@@ -429,73 +412,34 @@ F 3 "~" H 4200 6900 50  0001 C CNN
 	1    4200 6900
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 3500 0    50   BiDi ~ 0
+Text GLabel 8500 3600 0    50   BiDi ~ 0
 B2
-Text GLabel 8600 3600 0    50   Output ~ 0
+Text GLabel 8600 3800 0    50   Output ~ 0
 RST
-Wire Wire Line
-	10500 3600 10450 3600
 $Comp
 L Switch:SW_DIP_x02 SW1
 U 1 1 62053407
-P 8200 3400
-F 0 "SW1" H 7850 3750 50  0000 C CNN
-F 1 "SW_DIP_x02" H 7850 3650 50  0000 C CNN
-F 2 "Attiny_breakout:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile" H 8200 3400 50  0001 C CNN
-F 3 "~" H 8200 3400 50  0001 C CNN
-	1    8200 3400
+P 8250 1900
+F 0 "SW1" H 7900 2250 50  0000 C CNN
+F 1 "SW_DIP_x02" H 7900 2150 50  0000 C CNN
+F 2 "Attiny_breakout:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile" H 8250 1900 50  0001 C CNN
+F 3 "~" H 8250 1900 50  0001 C CNN
+	1    8250 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 3300 7850 3300
+	7950 1800 7900 1800
 Wire Wire Line
-	7900 3400 7850 3400
-$Comp
-L esda5v3l:ESDA5V3L D10
-U 1 1 620F8BCD
-P 10550 3900
-F 0 "D10" H 10755 3946 50  0000 L CNN
-F 1 "ESDA5V3L" H 10650 3700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10775 3850 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10675 4025 50  0001 C CNN
-	1    10550 3900
-	1    0    0    -1  
-$EndComp
+	7950 1900 7900 1900
 Wire Wire Line
-	10450 3700 10450 3600
-Connection ~ 10450 3600
+	8850 4400 8850 4550
 Wire Wire Line
-	10450 3600 8600 3600
-$Comp
-L power:GND #PWR012
-U 1 1 62101217
-P 9800 4250
-F 0 "#PWR012" H 9800 4000 50  0001 C CNN
-F 1 "GND" H 9805 4077 50  0000 C CNN
-F 2 "" H 9800 4250 50  0001 C CNN
-F 3 "" H 9800 4250 50  0001 C CNN
-	1    9800 4250
-	1    0    0    -1  
-$EndComp
+	8850 4550 9400 4550
 Wire Wire Line
-	8850 4100 8850 4250
+	9400 4400 9400 4550
+Connection ~ 9400 4550
 Wire Wire Line
-	8850 4250 9400 4250
-Wire Wire Line
-	9400 4100 9400 4250
-Connection ~ 9400 4250
-Wire Wire Line
-	9400 4250 9800 4250
-Wire Wire Line
-	10000 4100 10000 4250
-Wire Wire Line
-	10000 4250 9800 4250
-Connection ~ 9800 4250
-Wire Wire Line
-	10550 4100 10550 4250
-Wire Wire Line
-	10550 4250 10000 4250
-Connection ~ 10000 4250
+	10000 4400 10000 4550
 Text GLabel 4200 6200 2    50   Output ~ 0
 B0_XTAL1
 Text GLabel 3500 6200 2    50   Output ~ 0
@@ -681,12 +625,10 @@ Text GLabel 6000 4600 2    50   BiDi ~ 0
 B0_XTAL1
 Text GLabel 6000 4400 2    50   BiDi ~ 0
 A7
-Text GLabel 6000 4000 2    50   BiDi ~ 0
-SCK1_A3
 Text GLabel 6000 3900 2    50   BiDi ~ 0
 A2
 Text GLabel 6000 3800 2    50   BiDi ~ 0
-MOSI1_A1
+A1
 Wire Wire Line
 	5500 4700 5650 4700
 Wire Wire Line
@@ -752,12 +694,6 @@ Wire Wire Line
 	5650 4200 5500 4200
 Wire Wire Line
 	5650 4100 5500 4100
-Text GLabel 6000 4100 2    50   BiDi ~ 0
-SCK2_A4
-Text GLabel 6000 4300 2    50   BiDi ~ 0
-MOSI2_A6
-Text GLabel 6000 4200 2    50   BiDi ~ 0
-MISO2_A5
 Connection ~ 4900 2950
 Wire Wire Line
 	4900 2900 4900 2950
@@ -815,10 +751,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8495-8-bit-AVR-Microc
 	1    4900 4300
 	1    0    0    -1  
 $EndComp
-Text GLabel 10750 4500 0    50   Input ~ 0
-HVSP_RST
-Wire Wire Line
-	10900 3700 10650 3700
 $Comp
 L Connector:TestPoint TP6
 U 1 1 622FB3CD
@@ -843,12 +775,8 @@ F 3 "" H 5800 2250 50  0001 C CNN
 	1    5800 2250
 	1    0    0    -1  
 $EndComp
-Text Notes 7700 3700 0    50   ~ 0
+Text Notes 7750 2200 0    50   ~ 0
 Open if external \ncrystal is used
-Text GLabel 8600 1700 0    50   BiDi ~ 0
-SCK1_A3
-Text GLabel 8600 1800 0    50   BiDi ~ 0
-SCK2_A4
 Text GLabel 5800 1800 2    50   Output ~ 0
 SCK
 $Comp
@@ -882,19 +810,7 @@ Wire Wire Line
 Text GLabel 6700 1500 2    50   Output ~ 0
 MISO
 Text GLabel 6000 3700 2    50   BiDi ~ 0
-MISO1_A0
-Text GLabel 8600 1400 0    50   BiDi ~ 0
-MISO1_A0
-Text GLabel 8600 3000 0    50   BiDi ~ 0
-MISO2_A5
-Text GLabel 8600 3100 0    50   BiDi ~ 0
-MOSI2_A6
-Text GLabel 8600 1500 0    50   BiDi ~ 0
-MOSI1_A1
-Wire Wire Line
-	10750 4500 10900 4500
-Wire Wire Line
-	10900 4500 10900 3700
+A0
 $Sheet
 S 8050 5200 2150 900 
 U 625BF0C7
@@ -1397,4 +1313,72 @@ Connection ~ 4650 2950
 Wire Wire Line
 	4250 3250 4650 3250
 Connection ~ 4650 3250
+Text GLabel 6000 4000 2    50   BiDi ~ 0
+A3
+Text GLabel 6000 4100 2    50   BiDi ~ 0
+SCK
+Text GLabel 6000 4200 2    50   BiDi ~ 0
+MISO
+Text GLabel 6000 4300 2    50   BiDi ~ 0
+MOSI
+Text GLabel 8600 1400 0    50   BiDi ~ 0
+A0
+Text GLabel 8600 1500 0    50   BiDi ~ 0
+A1
+Text GLabel 8600 1700 0    50   BiDi ~ 0
+A3
+Wire Wire Line
+	8950 3800 10500 3800
+Connection ~ 10500 4550
+Wire Wire Line
+	10000 4550 10500 4550
+Wire Wire Line
+	9400 4550 10000 4550
+$Comp
+L power:GND #PWR012
+U 1 1 62101217
+P 10500 4550
+F 0 "#PWR012" H 10500 4300 50  0001 C CNN
+F 1 "GND" H 10505 4377 50  0000 C CNN
+F 2 "" H 10500 4550 50  0001 C CNN
+F 3 "" H 10500 4550 50  0001 C CNN
+	1    10500 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 2050 10550 2050
+Wire Wire Line
+	10800 2700 10800 2050
+Wire Wire Line
+	10600 2700 10800 2700
+Text GLabel 10600 2700 0    50   Input ~ 0
+HVSP_RST
+Connection ~ 10000 4550
+$Comp
+L esda5v3l:ESDA5V3L D10
+U 1 1 623F4697
+P 10450 2250
+F 0 "D10" H 10655 2296 50  0000 L CNN
+F 1 "ESDA5V3L" H 10550 2050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10675 2200 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10575 2375 50  0001 C CNN
+	1    10450 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1900 10350 1900
+Wire Wire Line
+	10350 2050 10350 1900
+Connection ~ 10350 1900
+Wire Wire Line
+	10350 1900 10500 1900
+Wire Wire Line
+	10450 2450 10450 2550
+Wire Wire Line
+	10450 2550 9900 2550
+Connection ~ 9900 2550
+Wire Wire Line
+	10500 3900 10500 4550
+Text Notes 9150 3350 0    50   ~ 0
+3 reserved pins
 $EndSCHEMATC
